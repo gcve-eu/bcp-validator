@@ -123,7 +123,7 @@ python3 gcve_bcp05_validate.py ./records/
 ### Validate a GCVE pull API endpoint
 
 ```bash
-python3 gcve_bcp05_validate.py --url "--url "https://vulnerability.circl.lu/api/vulnerability/?source=gna-1" 
+python3 gcve_bcp05_validate.py --url "https://vulnerability.circl.lu/api/vulnerability/?source=gna-1" 
 ```
 
 The URL may return:
