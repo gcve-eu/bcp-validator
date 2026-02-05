@@ -127,6 +127,7 @@ python3 gcve_bcp05_validate.py --url "https://vulnerability.circl.lu/api/vulnera
 ```
 
 The URL may return:
+
 - a single JSON object, or
 - an array of JSON objects
 
@@ -147,6 +148,7 @@ Only print errors (no `OK:` lines):
 ```bash
 python3 gcve_bcp05_validate.py ./records --quiet
 ```
+
 ## Exit Codes
 
 | Code | Meaning |
