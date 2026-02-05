@@ -43,6 +43,7 @@ Accepted forms:
 - An **array of KEV assertion objects**
 
 Example:
+
 ```json
 {
   "vulnerability": { "vulnId": "CVE-2024-XXXX" },
@@ -57,6 +58,7 @@ Example:
 - Lines starting with `#` are treated as comments
 
 Example:
+
 ```json
 {"vulnerability":{"vulnId":"CVE-2024-0001"},"status":{"exploited":true}}
 {"vulnerability":{"vulnId":"CVE-2024-0002"},"status":{"exploited":false}}
